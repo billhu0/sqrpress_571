@@ -1,0 +1,21 @@
+{
+  "name": "sqrpress_571",
+  "version": "0.1.1",
+  "description": "Create a CS571 Frontend+Backend App",
+  "main": "index.js",
+  "bin": {
+    "sqrpress_571": "index.js",
+    "pkg-install": "npm install"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "billhu0",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}
