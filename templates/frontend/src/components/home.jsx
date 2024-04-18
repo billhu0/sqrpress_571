@@ -3,13 +3,16 @@
 /* eslint-disable no-unused-vars */
 
 import { useEffect, useState } from "react";
-import "./App.css";
+import '../index.css';
+import '../App.css';
 import { Button, Card, Form } from "react-bootstrap";
 import { Layout, Flex } from 'antd';
 import { Header, Content } from 'antd/es/layout/layout';
 import Sider from 'antd/es/layout/Sider';
+import alipay from '../assets/alipay.png';
+// import wechatpay from '../assets/wechatpay.jpg'
 
-function App() {
+function Home() {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
 
@@ -88,8 +91,10 @@ function App() {
           </Button>
         </Card>
       ))}
+      <img src={alipay} width='300px' alt="alipay" />
+      {/* <img src={wechatpay} width='100px' alt="wechatpay" /> */}
     </div>
   );
 }
 
-export default App;
+export default Home;
