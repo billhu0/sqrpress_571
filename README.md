@@ -1,6 +1,6 @@
 # SqRpress_571
 
-An efficient front-end integration framework, based on Node.js, React, Express, Sql and Vite.
+An efficient front-end integration framework, based on Sql, React, Express, Vite and [CS571](https://www.cs571.org).
 
 ## 更新
 
