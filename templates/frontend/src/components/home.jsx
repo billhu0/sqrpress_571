@@ -3,14 +3,7 @@
 /* eslint-disable no-unused-vars */
 
 import { useEffect, useState } from "react";
-import '../index.css';
-import '../App.css';
 import { Button, Card, Form } from "react-bootstrap";
-import { Layout, Flex } from 'antd';
-import { Header, Content } from 'antd/es/layout/layout';
-import Sider from 'antd/es/layout/Sider';
-import alipay from '../assets/alipay.png';
-// import wechatpay from '../assets/wechatpay.jpg'
 
 function Home() {
   const [title, setTitle] = useState("");
@@ -86,15 +79,16 @@ function Home() {
         <Card key={m.id} style={{ marginTop: "1rem" }}>
           <h2>{m.title}</h2>
           <p>{m.content}</p>
-          <Button style={{ backgroundColor: "red" }} onClick={()=>deletePost(m.id)} >
+          <Button style={{ backgroundColor: "red" }} onClick={() => deletePost(m.id)} >
             Delete
           </Button>
         </Card>
       ))}
-      <img src={alipay} width='300px' alt="alipay" />
-      {/* <img src={wechatpay} width='100px' alt="wechatpay" /> */}
+
     </div>
   );
 }
+
+
 
 export default Home;
