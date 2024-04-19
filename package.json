@@ -1,11 +1,10 @@
 {
   "name": "sqrpress_571",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "description": "Create a CS571 Frontend+Backend App",
   "main": "index.js",
   "bin": {
-    "sqrpress_571": "index.js",
-    "pkg-install": "npm install"
+    "sqrpress_571": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
